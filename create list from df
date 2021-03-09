@@ -1,0 +1,4 @@
+# https://stackoverflow.com/questions/22341271/get-list-from-pandas-dataframe-column-or-row
+PC2 = data.values.reshape(1,-1).ravel().tolist()
+len(PC2)
+
